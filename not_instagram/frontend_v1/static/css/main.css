@@ -1,0 +1,59 @@
+/* main.css
+ *
+ * Created for the Django workshop
+ * IEEE UP SB
+ * 2019
+ * */
+
+.main-container {
+  text-align: center;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  position: sticky;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+
+.navbar .left-side {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.navbar .right-side {
+  display: flex;
+  margin-right: 25px;
+}
+
+.navbar .not-logged {
+  display: flex;
+}
+
+.navbar .logged {
+  display: flex;
+}
+
+.navbar .create-account-btn {
+  margin-left: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.publication-container {
+  align-items: center;
+  display: flex;
+}
+
+.login-container {
+}
+
+.register-container {
+}
